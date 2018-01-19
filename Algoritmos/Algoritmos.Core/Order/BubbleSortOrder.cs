@@ -33,9 +33,9 @@ namespace Algoritmos.Core.Order
                     {
                         if (arr[i] > arr[j])
                         {
-                            int ax = arr[i];
-                            arr[i] = arr[j]; // Menor valor desce (na posicao J)
-                            arr[j] = ax;     // Maior valor sobe (na posição I)
+                            // Menor valor desce (na posicao J vai pra I)
+                            // Maior valor sobe (na posição I vai pra J)
+                            (arr[i], arr[j]) = (arr[j], arr[i]); //C#7
                             changes++;
                         }
                     }
