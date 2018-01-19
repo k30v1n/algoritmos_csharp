@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Algoritmos.Core.Tests.Order
+namespace Algoritmos.Core.Tests.Data
 {
     /// <summary>
     /// Dados únicos de ordenação

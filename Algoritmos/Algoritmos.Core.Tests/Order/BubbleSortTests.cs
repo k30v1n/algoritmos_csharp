@@ -1,5 +1,5 @@
 using Algoritmos.Core.Order;
-using Algoritmos.Core.Tests.Order;
+using Algoritmos.Core.Tests.Data;
 using System;
 using Xunit;
 
